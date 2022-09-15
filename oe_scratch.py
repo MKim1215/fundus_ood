@@ -16,8 +16,8 @@ from tqdm import tqdm
 from torchvision.models import resnet50
 from torchvision.datasets import ImageFolder
 from torch.utils.data import Dataset, DataLoader
-from data_loader.datasets.ood_dataset import Ood_Dataset
-from data_loader.datasets.ood_dataset import ID_Dataset
+from datasets.ood_dataset import Ood_Dataset
+from datasets.ood_dataset import ID_Dataset
 from model.model import ResNet50, ResNet50_1
 from torch.utils.data import RandomSampler, BatchSampler
 from itertools import cycle
